@@ -226,7 +226,6 @@ void Bar::render()
 
 	renderTags();
 	renderComponent(_layoutCmp);
-	renderComponent(_titleCmp);
 	renderStatus();
 
 	_painter = nullptr;
