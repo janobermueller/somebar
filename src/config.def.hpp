@@ -12,8 +12,8 @@ constexpr int paddingY = 3;
 // See https://docs.gtk.org/Pango/type_func.FontDescription.from_string.html
 constexpr const char* font = "Sans 12";
 
-constexpr ColorScheme colorInactive = {Color(0xbb, 0xbb, 0xbb), Color(0x22, 0x22, 0x22)};
-constexpr ColorScheme colorActive = {Color(0xee, 0xee, 0xee), Color(0x00, 0x55, 0x77)};
+constexpr ColorScheme colorInactive = {Color(0xeb, 0xdb, 0xb2), Color(0x1d, 0x20, 0x21)};
+constexpr ColorScheme colorActive = {Color(0x1d, 0x20, 0x21), Color(0xa8, 0x99, 0x84)};
 constexpr const char* termcmd[] = {"foot", nullptr};
 
 static std::vector<std::string> tagNames = {
